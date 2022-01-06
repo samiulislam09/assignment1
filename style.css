@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
+.color-text{
+    color: #FFAD5A;
+}
+.leftside{
+    flex: 2;
+}
+.my-mission{
+    text-align: center;
+}
+.my-mission h1{
+    margin: 40px 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+.leftside p{
+    width: 350px;
+    margin: 20px 0;
+}
+
+.rightside{
+    flex: 1;
+}
+.rightside img{
+    height: 400px;
+}
+button{
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+
+}
+
+.my-mission{
+    margin: 0 auto;
+}
+.my-mission-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: antiquewhite;
+    width: 328px;
+    height: 343px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card img{
+    height: 132px;
+}
+.card1{
+    background-color: rgba(141, 247, 247, 0.452);
+}
+.card2{
+    background-color: rgba(217, 255, 128, 0.466);
+}
+.card3{
+    background-color: rgba(252, 224, 167, 0.404);
+}
+
+.community{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.community p {
+    width: 514px;
+}
+.text-content{
+    width: 700px;
+}
+img{
+    height: 400px;
+    margin-right: 50px;
+}
+
+.text-content h2{
+    font-size: 30px;
+}
+
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 60rem;
+    flex-direction: column;
+}
+
+.input-fields{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    
+}
+#name{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.541);
+    outline: none;
+    margin: 20px 0;
+}
+#gmail{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.541);
+    outline: none;
+}
+#subject{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.541);
+    outline: none;
+    margin: 20px 0;
+}
+#textarea{
+    border: 2px solid rgba(0, 0, 0, 0.541);
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
