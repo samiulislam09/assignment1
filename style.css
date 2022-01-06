@@ -21,6 +21,10 @@ header{
 .leftside{
     flex: 2;
 }
+.leftside h1{
+    border-left: 3px solid #ff0000;
+    border-radius: 2px;
+}
 .my-mission{
     text-align: center;
 }
